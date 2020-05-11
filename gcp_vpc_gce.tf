@@ -26,7 +26,7 @@ resource "google_compute_instance" "default" {
  }
 
  network_interface {
-   network = "default"
+   network = "terraform-network"
 
    access_config {
      // Include this section to give the VM an external ip address
